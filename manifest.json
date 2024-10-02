@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Days Remaining",
+  "version": "1.0",
+  "description": "A Days Remaining Ext",
+  "permissions": ["activeTab", "scripting", "storage"],
+  "background": {
+    "service_worker": "index.js"
+  },
+  "action": {
+    "default_popup": "index.html"
+  }
+}
