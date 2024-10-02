@@ -1,6 +1,6 @@
 function getCurrentYearLastDate() {
   const currentYear = new Date().getFullYear();
-  const lastDate = new Date(currentYear, 12, 31); 
+  const lastDate = new Date(currentYear, 11, 31); 
   return lastDate;
 }
 function updateTime() {
